@@ -1,5 +1,6 @@
 import { useState } from "react"
 import DivsHide from "./components/DivsHide"
+import Rate from "./components/Rate"
 
 
   function App() {
@@ -10,6 +11,7 @@ import DivsHide from "./components/DivsHide"
     return (
       <div>
       <DivsHide show={show} setShow={setShow} />
+      <Rate/>
     
      </div>
     )}
