@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function DivsHide({show,setShow}) {
+      //  const [show, setShow] = useState(true)
+
     const hide = () => {
         setShow(!show); 
     }
