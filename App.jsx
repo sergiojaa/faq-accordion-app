@@ -1,7 +1,7 @@
 import { useState } from "react"
 import DivsHide from "./components/DivsHide"
 import Rate from "./components/Rate"
-sssssszzz
+
 
   function App() {
    const [show, setShow] = useState(true)
