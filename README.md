@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FAQ Accordion App
 
-## Getting Started
+This is a simple FAQ accordion app built using **React.js** and **TypeScript**. The app allows users to view frequently asked questions (FAQ) and toggle answers to learn more. It’s designed to provide an intuitive and interactive way to navigate through common questions.
 
-First, run the development server:
+## Features
+- **Accordion functionality**: Click on a question to toggle its answer.
+- **Dynamic data**: Each FAQ question and answer is passed via props, allowing for scalability and flexibility in handling different content.
+- **Design**: The design is 90% complete, and the final touches are being worked on to ensure a clean and responsive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I learned
+- **Using Props**: Since the questions and answers were only differing by their content, I learned to use props effectively to pass data and make the code more concise and readable.
+- **TypeScript**: Ensured type safety for props and state, improving the app's stability and maintainability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- **React.js**: For building the app structure and components.
+- **TypeScript**: For ensuring type safety and clearer code.
+- **CSS**: For styling the app’s layout and UI elements.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Current Status
+The app is almost complete, with a few final touches left on design and some minor adjustments to enhance the user experience. Once finalized, the app will provide a polished and fully functional FAQ accordion feature.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
